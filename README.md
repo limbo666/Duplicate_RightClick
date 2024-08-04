@@ -1,7 +1,7 @@
 # Dublicate Rightclick
 
 **Add a dublicate right click option to your context menu on your windows computer to quickly copy and paste the selected files.**<p>
-![Untitled-2](https://github.com/user-attachments/assets/b403ceba-aca7-4ff9-8334-ac0843b0f7fd)
+![Untitled-2](https://github.com/user-attachments/assets/b403ceba-aca7-4ff9-8334-ac0843b0f7fd)<p>
 The script should be extracted to a folder to your system and then a registry entry should be added in order to appear on each file right click.
 The zip contains three files:
 1. The actual powershell script which is used to dublicate the files (`dublicate_script.ps1`).
@@ -13,7 +13,7 @@ In order the registry file to work the script and icon should be extracted to a 
 **Semi auto configuration (in case you want to use `C:\Scripts\Dublicate_Menu\` for your script )**
 1. Download the release package.
 2. Extract the files to `C:\Scripts\Dublicate_Menu\`
-3. Double click the `dublicate.reg`<p>
+3. Double click the `dublicate.reg` and accept the megre dialog when prompted<p>
 Test by right-clicking a file and see if the "Dublicate" menu item is there and functioning.
 
 **Manual configuration (in case you want to use your own path)**
