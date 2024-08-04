@@ -9,14 +9,15 @@ The zip contains three files:
 3. A registry merge file that helps add the necessary entries to the registry (`dublicate.reg` <p>
 In order the registry file to work the script and icon should be extracted to a specific fodler which is `C:\Scripts\Dublicate_Menu\`
 <p><p>
-
-**Semi auto configuration (in case you want to use `C:\Scripts\Dublicate_Menu\` for your script )**
+There are two ways to setup this to your computer:
+	
+A. **Semi auto configuration (in case you want to use `C:\Scripts\Dublicate_Menu\` for your script )**
 1. Download the release package.
 2. Extract the files to `C:\Scripts\Dublicate_Menu\`
 3. Double click the `dublicate.reg` and accept the megre dialog when prompted<p>
 Test by right-clicking a file and see if the "Dublicate" menu item is there and functioning.
 
-**Manual configuration (in case you want to use your own path)**
+B. **Manual configuration (in case you want to use your own path)**
 1. Download the release package.
 2. Extract the files to a folder of your choice.
 3. Open the Registry Editor (Win + R, type regedit, press Enter)
