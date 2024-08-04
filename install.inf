@@ -1,0 +1,35 @@
+[Version]
+Signature="$Windows NT$"
+Class=InstallClass
+ClassGuid={12345678-1234-1234-1234-123456789012}
+Provider=%MfgName%
+DriverVer=08/03/2024,1.0.0.0
+
+[DefaultInstall]
+CopyFiles=CopyFilesSection
+AddReg=AddRegistrySection
+
+[DestinationDirs]
+CopyFilesSection=30,"Scripts\Dublicate_Menu" ; 30 represents %SystemRoot%
+
+[SourceDisksNames]
+1="SourceDisk",,,,
+
+[SourceDisksFiles]
+doublicate.ico=1
+dublicate_script.ps1=1
+
+[CopyFilesSection]
+doublicate.ico
+dublicate_script.ps1
+
+[AddRegistrySection]
+HKCR,"*\shell\Dublicate","Icon",,"C:\\Scripts\\Dublicate_Menu\\doublicate.ico"
+HKCR,"*\shell\Dublicate\command",,,"powershell.exe -NoProfile -ExecutionPolicy Bypass -File """C:\\Scripts\\Dublicate_Menu\\dublicate_script.ps1""" """%1"""
+
+
+[Strings]
+MfgName="Your Company Name"
+
+
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File 'C:\\Scripts\\Dublicate_Menu\\dublicate_script.ps1'  %1'
