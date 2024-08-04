@@ -12,20 +12,25 @@ In order the registry file to work the script and icon should be extracted to a 
 There are two ways to setup this to your computer:
 	
 A. **Semi auto configuration (in case you want to use `C:\Scripts\Dublicate_Menu\` for your script )**
-1. Download the release package.
+1. Download the release package https://github.com/limbo666/Dublicate_RightClick/releases.
 2. Extract the files to `C:\Scripts\Dublicate_Menu\`
 3. Double click the `dublicate.reg` and accept the megre dialog when prompted<p>
 Test by right-clicking a file and see if the "Dublicate" menu item is there and functioning.
 
 B. **Manual configuration (in case you want to use your own path)**
-1. Download the release package.
+1. Download the release package https://github.com/limbo666/Dublicate_RightClick/releases.
 2. Extract the files to a folder of your choice.
 3. Open the Registry Editor (Win + R, type regedit, press Enter)
 	- [x] Navigate to `HKEY_CLASSES_ROOT\*\shell`.
 	- [x] Right-click on the shell key, select `New` > `Key`, and name it `Duplicate`.
 	- [x] Right-click the newly created Duplicate key, select `New` > `Key`, and name it `command`.
-	- [x] Select the command key, double-click the `Default` entry on the right, and enter the following line by replacing the path with your script location:<p> `powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Toolz\Dublicate_Menu\dublicate_script.ps1" "%1"`<p>
+	- [x] Select the command key, double-click the `Default` entry on the right, and enter the following line by replacing the path with your script location:<p> `powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Toolz\Dublicate_Menu\dublicate_script.ps1" "%1"`
+	- [x] Right-click on `Duplicate` shell key, select `New` > `String Value`, and name it `Icon`
+	- [x] Double-click on the `Icon` entry, and set its value to the path of your icon file. For example: `C:\Toolz\Dublicate_Menu\dublicate.ico`
+ <p>
 Test by right-clicking a file and see if the "Dublicate" menu item is there and functioning.
 
+<p>
+Enjoy
 
 
