@@ -40,7 +40,6 @@ C. **Manual configuration (in case you want to use your own path)**
 
 
 <p>
-Enjoy
-Nikos
+Enjoy<p>
 
 
