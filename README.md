@@ -39,6 +39,10 @@ C. **Manual configuration (in case you want to use your own path)**
  <p>
 
 
+**Youtube video guide for automatic installation:**<p>
+[![Video on youtube](https://img.youtube.com/vi/VXsZ_ZfY0N0/0.jpg)](https://www.youtube.com/watch?v=VXsZ_ZfY0N0)<p>
+_click the image above to watch the video_
+
 <p>
 Enjoy<p>
 
