@@ -1,7 +1,8 @@
 # Duplicate Right-click option
 
 **Add a Duplicate right click option to your context menu on your windows computer to quickly copy and paste the selected files.**<p>
-![Untitled-2](https://github.com/user-attachments/assets/b403ceba-aca7-4ff9-8334-ac0843b0f7fd)<p>
+![Untitled-1](https://github.com/user-attachments/assets/ac6a505a-b265-4062-a99a-8550d69f086f)
+<p>
 The script should be extracted to a folder to your system and then a registry entry should be added in order to appear on each file right click.
 The zip contains four files:
 1. The actual powershell script which is used to Duplicate the files (`Duplicate_script.ps1`).
