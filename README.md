@@ -6,7 +6,7 @@
 The script should be extracted to a folder to your system and then a registry entry should be added in order to appear on each file right click.
 The zip contains four files:
 1. The actual powershell script which is used to Duplicate the files (`Duplicate_script.ps1`).
-2. The icon which should be placed on the same folder with the ps file (`douplicate.ico`)
+2. The icon which should be placed on the same folder with the ps file (`duplicate.ico`)
 3. A registry merge file that helps add the necessary entries to the registry (`Duplicate.reg`)
 4. A setup information file (inf) to automate the installation proccess (`install.inf`) <p>
 <p><p>
