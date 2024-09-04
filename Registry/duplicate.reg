@@ -1,0 +1,8 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Duplicate]
+"Icon"="C:\\Scripts\\Duplicate_Menu\\duplicate.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\Duplicate\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Scripts\\Duplicate_Menu\\duplicate_script.ps1\" \"%1\""
+

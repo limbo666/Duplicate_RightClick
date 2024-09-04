@@ -1,8 +1,0 @@
-﻿Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\*\shell\Dublicate]
-"Icon"="C:\\Scripts\\Dublicate_Menu\\doublicate.ico"
-
-[HKEY_CLASSES_ROOT\*\shell\Dublicate\command]
-@="powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"C:\\Scripts\\Dublicate_Menu\\dublicate_script.ps1\" \"%1\""
-
