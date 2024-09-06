@@ -40,9 +40,7 @@ C. **Manual configuration (in case you want to use your own path)**
  <p>
 
 
-**Youtube video guide for automatic installation:**<p>
 
-https://www.youtube.com/watch?v=VXsZ_ZfY0N0
 
 <p>
 Enjoy<p>
