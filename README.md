@@ -5,15 +5,16 @@
 ![Untitled-1](https://github.com/user-attachments/assets/ac6a505a-b265-4062-a99a-8550d69f086f)
 <p>
 The script should be extracted to a folder to your system and then a registry entry should be added in order to appear on each file right click.
-The zip contains four files:
-1. The actual powershell script which is used to Duplicate the files (`Duplicate_script.ps1`).
-2. The icon which should be placed on the same folder with the ps file (`duplicate.ico`)
-3. A registry merge file that helps add the necessary entries to the registry (`Duplicate.reg`)
-4. A setup information file (inf) to automate the installation proccess (`install.inf`) <p>
+The zip contains four files:<p>
+
+1. The actual powershell script which is used to Duplicate the files `Duplicate_script.ps1`.
+2. The icon which should be placed on the same folder with the ps file `duplicate.ico`
+3. A registry merge file that helps add the necessary entries to the registry `Duplicate.reg`
+4. A setup information file (inf) to automate the installation proccess `install.inf` <p>
+
 <p><p>
+
 There are three ways to setup this to your computer:<p>
-
-
 A. **Auto configuration**
 1. Download the latest release package https://github.com/limbo666/Duplicate_RightClick/releases.
 2. Extract the files to a temporary folder and open your file explorer to this folder
