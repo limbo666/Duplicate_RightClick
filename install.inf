@@ -10,26 +10,26 @@ CopyFiles=CopyFilesSection
 AddReg=AddRegistrySection
 
 [DestinationDirs]
-CopyFilesSection=30,"Scripts\Dublicate_Menu" ; 30 represents %SystemRoot%
+CopyFilesSection=30,"Scripts\Duplicate_Menu" ; 30 represents %SystemRoot%
 
 [SourceDisksNames]
 1="SourceDisk",,,,
 
 [SourceDisksFiles]
-doublicate.ico=1
-dublicate_script.ps1=1
+duplicate.ico=1
+duplicate_script.ps1=1
 
 [CopyFilesSection]
-doublicate.ico
-dublicate_script.ps1
+duplicate.ico
+duplicate_script.ps1
 
 [AddRegistrySection]
-HKCR,"*\shell\Dublicate","Icon",,"C:\\Scripts\\Dublicate_Menu\\doublicate.ico"
-HKCR,"*\shell\Dublicate\command",,,"powershell.exe -NoProfile -ExecutionPolicy Bypass -File """C:\\Scripts\\Dublicate_Menu\\dublicate_script.ps1""" """%1"""
+HKCR,"*\shell\Duplicate","Icon",,"C:\\Scripts\\Duplicate_Menu\\duplicate.ico"
+HKCR,"*\shell\Duplicate\command",,,"powershell.exe -NoProfile -ExecutionPolicy Bypass -File """C:\\Scripts\\Duplicate_Menu\\duplicate_script.ps1""" """%1"""
 
 
 [Strings]
-MfgName="Your Company Name"
+MfgName="Hand Water Pump"
 
 
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File 'C:\\Scripts\\Dublicate_Menu\\dublicate_script.ps1'  %1'
