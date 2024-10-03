@@ -1,6 +1,7 @@
 # Duplicate Right-click option
 
 **Add a Duplicate right click option to the right-click context menu on your windows computer to quickly copy and paste the selected files.**<p>
+**Version 2.0 Update:** Folder duplication is now supported.
 ![Untitled-1](https://github.com/user-attachments/assets/ac6a505a-b265-4062-a99a-8550d69f086f)
 <p>
 The script should be extracted to a folder to your system and then a registry entry should be added in order to appear on each file right click.
